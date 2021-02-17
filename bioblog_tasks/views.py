@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def view_start_page(request):
+    return render(request, 'startPage.html', {})
